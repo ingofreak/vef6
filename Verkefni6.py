@@ -1,5 +1,6 @@
 #Ingólfur Óskarsson
 from bottle import *
+import os
 
 @route('/')
 def index():
